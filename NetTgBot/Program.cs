@@ -48,8 +48,6 @@ public class Program
         using (ws = new WebSocket("ws://localhost:8080"))
         {
 
-
-
             ws.Opened += (sender, e) =>
             {
                 Console.WriteLine("Connect");
@@ -72,14 +70,11 @@ public class Program
     {
         try
         {
-
             if (update.Message is not { } message)
                 return;
 
             if (message.Text is not { } messageText)
                 return;
-
-
 
             var chatId = message.Chat.Id;
 
@@ -90,15 +85,12 @@ public class Program
 
             ws.Send(messageTextRecive);
 
-
         }
         catch (Exception ex)
         {
             Console.WriteLine(ex.ToString());
         }
     }
-
-
 
     static Task ErrorHandler(ITelegramBotClient botClient, Exception error, CancellationToken cancellationToken)
     {

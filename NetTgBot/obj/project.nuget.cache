@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0mCA7Syzt31+rowDM0VyvPA34F0Zow0mLL6SV8N6p5ITs0ZvDmZsIpkhK6RIoWYkrB8Uq9BoOYF4tnuR7XJM6g==",
+  "dgSpecHash": "IafTryeVllcF/kSDEx+ruktQ8MbSroq2PW2c6T/D6HiyrBBICuNrMsWCEMoCfZWFTcYVZA/qYaGZAxDLN6Cfjw==",
   "success": true,
-  "projectFilePath": "D:\\ProgramProject\\repos\\NetTgBot\\NetTgBot\\NetTgBot.csproj",
+  "projectFilePath": "D:\\ProgramProject\\repos\\TgChatBot\\NetTgBot\\NetTgBot.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kakk2\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\kakk2\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
